@@ -1,5 +1,3 @@
-# 🔀 SMY - Spotify Music to YouTube Music Playlist Transferer
-
 ![SMY Banner](https://raw.githubusercontent.com/Qwyua/SMY-Transferer/refs/heads/main/assets/banner.png)
 
 > **✨ No extensions!** **🚀 Console magic!** **⏳ Saves hours!**
