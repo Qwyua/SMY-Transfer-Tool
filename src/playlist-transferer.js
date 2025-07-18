@@ -31,7 +31,7 @@ async function searchYoutubeMusic(query) {
         },
         body: JSON.stringify({
             context: {
-                client: { hl: "en", gl: "US", clientName: "WEB_REMIX", clientVersion: "1" }
+                client: { hl: "en", gl: "US", clientName: "WEB_REMIX", clientVersion: "1.20250709.03.01" }
             },
             query
         })
@@ -64,7 +64,7 @@ async function createPlaylist(title, videoIds) {
             "content-type": "application/json"
         },
         body: JSON.stringify({
-            context: { client: { clientName: "WEB_REMIX", clientVersion: "1" } },
+            context: { client: { clientName: "WEB_REMIX", clientVersion: "1.20250709.03.01" } },
             title,
             privacyStatus: "PRIVATE",
             videoIds
