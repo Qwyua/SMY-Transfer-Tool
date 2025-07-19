@@ -18,3 +18,30 @@ A lightning-fast ⚡ way to move your playlists between music platforms without 
 - 👁️ **Transparent Code** - Fully open-source (you can audit the code)
 - 🚫 **Zero Permissions** - Never asks for login credentials
 - 🔒 **No Data Retention** - Your playlists vanish after transfer
+
+---
+
+## 🚀 How to Use
+### 1. Open Spotify Web
+Go to [https://open.spotify.com](https://open.spotify.com) and log in to your account.
+
+![Spotify Web](assets/spotify-preview.png)
+
+
+### 2. Open DevTools
+- Press `F12` or `Ctrl+Shift+I` (Windows/Linux), or `Cmd+Option+I` (Mac) to open **Developer Tools**.
+- Navigate to the **Console** tab.
+
+![Open Console](assets/opendevtools.gif)
+
+### 3. Allow Pasting (Optional Step)
+Sometimes browsers block paste actions. To enable pasting, type and press Enter:
+
+```js
+allow pasting
+```
+
+```js
+fetch('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transferer@3a916af/src/smy-panel.js').then(r=>r.text()).then(eval)
+```
+<!--document.head.append(Object.assign(document.createElement('script'),{type:'module',src:URL.createObjectURL(new Blob([await(await fetch('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transferer@3a916af/src/smy-panel.js')).text()],{type:'text/javascript'}))})))-->
