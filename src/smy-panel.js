@@ -7,7 +7,7 @@
     <button class="smy-panel-toggle">🌙</button>
     <div class="smy-panel">
       <div class="smy-panel-header">
-        <h3>🌙 SMY-Transferer</h3>
+        <h3>🌙 SMY-Transfer-Tool</h3>
         <div class="header-actions">
           <button class="copy-btn" id="headerCopyBtn" disabled>Copy Selected</button>
         </div>
@@ -146,7 +146,7 @@
     /* Spotify to YouTube Music Transfer Data */
 window.playlists = ${JSON.stringify(selectedData,null,2)};
 /* Secure script loading */
-document.head.append(Object.assign(document.createElement('script'),{src:(window.trustedTypes?.createPolicy('yt-import',{createScriptURL:u=>u})?.createScriptURL('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transferer@2f1451c/src/playlist-transferer.js'))??'https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@0f1d717/src/playlist-transfer.js',crossOrigin:'anonymous'}));
+document.head.append(Object.assign(document.createElement('script'),{src:(window.trustedTypes?.createPolicy('yt-import',{createScriptURL:u=>u})?.createScriptURL('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@2f1451c/src/playlist-transferer.js'))??'https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@0f1d717/src/playlist-transfer.js',crossOrigin:'anonymous'}));
 `;
 
         navigator.clipboard.writeText(jsCode).then(()=>showNotification('Transfer code copied! Paste into YouTube Music console','success')||console.log('Transfer code copied:',jsCode)).catch(err=>showNotification('Copy failed. Please try again.','error')||console.error('Copy failed:',err));
