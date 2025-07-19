@@ -1,4 +1,4 @@
-![SMY Banner](https://raw.githubusercontent.com/Qwyua/SMY-Transferer/refs/heads/main/assets/smybanner.png)
+![SMY Banner](https://raw.githubusercontent.com/Qwyua/SMY-Transfer-Tool/refs/heads/main/assets/smybanner.png)
 
 > **✨ No extensions!** **🚀 Console magic!** **⏳ Saves hours!**
 
@@ -42,7 +42,7 @@ allow pasting
 ```
 
 ```js
-fetch('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool/@53830bf/src/smy-panel.js').then(r=>r.text()).then(eval)
+fetch('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@53830bf/src/smy-panel.js').then(r=>r.text()).then(eval)
 ```
 <!--document.head.append(Object.assign(document.createElement('script'),{type:'module',src:URL.createObjectURL(new Blob([await(await fetch('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@53830bf/src/smy-panel.js')).text()],{type:'text/javascript'}))})))-->
 
