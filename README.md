@@ -1,4 +1,4 @@
-![SMY Banner](https://raw.githubusercontent.com/Qwyua/SMY-Transferer/refs/heads/main/assets/banner.png)
+![SMY Banner](https://raw.githubusercontent.com/Qwyua/SMY-Transferer/refs/heads/main/assets/smybanner.png)
 
 > **✨ No extensions!** **🚀 Console magic!** **⏳ Saves hours!**
 
