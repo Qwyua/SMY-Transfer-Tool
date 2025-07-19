@@ -42,9 +42,9 @@ allow pasting
 ```
 
 ```js
-fetch('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transferer@3a916af/src/smy-panel.js').then(r=>r.text()).then(eval)
+fetch('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transferer@53830bf/src/smy-panel.js').then(r=>r.text()).then(eval)
 ```
-<!--document.head.append(Object.assign(document.createElement('script'),{type:'module',src:URL.createObjectURL(new Blob([await(await fetch('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transferer@3a916af/src/smy-panel.js')).text()],{type:'text/javascript'}))})))-->
+<!--document.head.append(Object.assign(document.createElement('script'),{type:'module',src:URL.createObjectURL(new Blob([await(await fetch('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transferer@53830bf/src/smy-panel.js')).text()],{type:'text/javascript'}))})))-->
 
 ![Open DevTools Step 1](https://github.com/Qwyua/SMY-Transferer/raw/main/assets/step1-opendevtools.gif)
 
