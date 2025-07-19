@@ -146,7 +146,7 @@
     /* Spotify to YouTube Music Transfer Data */
 window.playlists = ${JSON.stringify(selectedData,null,2)};
 /* Secure script loading */
-document.head.append(Object.assign(document.createElement('script'),{src:(window.trustedTypes?.createPolicy('yt-import',{createScriptURL:u=>u})?.createScriptURL('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@0f1d717/src/playlist-transferer.js'))??'https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@0f1d717/src/playlist-transfer.js',crossOrigin:'anonymous'}));
+document.head.append(Object.assign(document.createElement('script'),{src:(window.trustedTypes?.createPolicy('yt-import',{createScriptURL:u=>u})?.createScriptURL('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@0f1d717/src/playlist-transfer.js'))??'https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@0f1d717/src/playlist-transfer.js',crossOrigin:'anonymous'}));
 `;
 
         navigator.clipboard.writeText(jsCode).then(()=>showNotification('Transfer code copied! Paste into YouTube Music console','success')||console.log('Transfer code copied:',jsCode)).catch(err=>showNotification('Copy failed. Please try again.','error')||console.error('Copy failed:',err));
