@@ -1,4 +1,4 @@
-![SMY Banner](https://raw.githubusercontent.com/Qwyua/SMY-Transfer-Tool/refs/heads/main/assets/smybanner.png)
+![SMY Banner](assets/smybanner.png)
 
 > **✨ No extensions!** **🚀 Console magic!** **⏳ Saves hours!**
 
@@ -32,8 +32,6 @@ Go to [https://open.spotify.com](https://open.spotify.com) and log in to your ac
 - Press `F12` or `Ctrl+Shift+J` (Windows/Linux), or `Cmd+Option+I` (Mac) to open **Developer Tools**.
 - Navigate to the **Console** tab.
 
-![Open Console](assets/opendevtools.gif)
-
 ### 3. Allow Pasting (Optional Step)
 Sometimes browsers block paste actions. To enable pasting, type and press Enter:
 
@@ -46,6 +44,6 @@ fetch('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@7446078/src/smy-panel
 ```
 <!--document.head.append(Object.assign(document.createElement('script'),{type:'module',src:URL.createObjectURL(new Blob([await(await fetch('https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@7446078/src/smy-panel.js')).text()],{type:'text/javascript'}))})))-->
 
-![Open DevTools Step 1](https://github.com/Qwyua/SMY-Transfer-Tool/raw/main/assets/step1-opendevtools.gif)
+![Open DevTools Step 1](assets/step1-opendevtools.gif)
 
 
