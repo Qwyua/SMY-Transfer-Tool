@@ -29,7 +29,7 @@ Go to [https://open.spotify.com](https://open.spotify.com) and log in to your ac
 
 
 ### 2. Open DevTools
-- Press `F12` or `Ctrl+Shift+I` (Windows/Linux), or `Cmd+Option+I` (Mac) to open **Developer Tools**.
+- Press `F12` or `Ctrl+Shift+J` (Windows/Linux), or `Cmd+Option+I` (Mac) to open **Developer Tools**.
 - Navigate to the **Console** tab.
 
 ![Open Console](assets/opendevtools.gif)
