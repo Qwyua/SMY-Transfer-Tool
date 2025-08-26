@@ -1,5 +1,5 @@
 <div><h1 id="smy" align="center">🌙 SMY — Transfer Tool</h1></div>
-<p id="smy" align="center"><img src="https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@main/assets/smybanner.png" alt="SMY Banner" style="width:100%"></p>
+<p id="smy" align="center"><img src="https://cdn.jsdelivr.net/gh/Qwyua/SMY-Transfer-Tool@main/assets/smybanner.png" alt="SMY-Transfer-Tool Banner" style="width:100%"></p>
 
 ---
 <br>
